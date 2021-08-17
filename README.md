@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory in CMD, you can run:
 
-### `git clone https://github.com/wahabjadoon/trello-clone.git`
+### `git clone https://github.com/wahabjadoon/trello.git`
 
 It clones all the project files from Github Repository to the current project directory.
 
