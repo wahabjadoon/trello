@@ -10,6 +10,10 @@ In the project directory in CMD, you can run:
 
 It clones all the project files from Github Repository to the current project directory.
 
+### `cd trello`
+
+Change into clone directory.
+
 ### `npm install`
 
 Install all the dependencies related to running React App in package.json file.
