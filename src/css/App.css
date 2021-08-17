@@ -1,0 +1,117 @@
+body {
+  background-color: #a9aaaf;
+}
+h1,
+h2,
+h3 {
+  margin: 5px;
+}
+
+#to-do-form input {
+  background-color: rgba(27, 112, 137, 1);
+  border: 0;
+  color: #fff;
+  width: 195px;
+  height: 40px;
+  margin-right: 10px;
+  padding: 0 10px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+#to-do-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#to-do-form input:focus {
+  outline: none;
+}
+#to-do-form button {
+  width: 74px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  border: 0;
+  background-color: rgb(89, 97, 134);
+  cursor: pointer;
+}
+#to-do-form button:focus {
+  outline: none;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.item {
+  background-color: #5e99ac;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: start;
+}
+
+.card {
+  background: white;
+  border-radius: 5px;
+  padding: 1px;
+  margin: 10px 0px;
+}
+
+.card h1 {
+  font-size: 1em;
+}
+
+.addBtn {
+  color: #fff;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  background-color: rgba(27, 112, 137, 1);
+  cursor: pointer;
+}
+
+.faiconsbtn {
+  margin: 0 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.addTodoBtn {
+  color: #fff;
+  height: 40px;
+  width: 110px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  margin-top: 10px;
+  margin-left: 80px;
+  background-color: rgba(27, 112, 137, 1);
+  cursor: pointer;
+}
